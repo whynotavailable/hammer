@@ -1,5 +1,8 @@
 package main
 
+import "github.com/whynotavailable/hammer"
+
 func main()  {
-	println("test");
+	thing := hammer.Node{}
+	thing.Run()
 }
